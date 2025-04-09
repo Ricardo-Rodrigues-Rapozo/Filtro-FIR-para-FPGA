@@ -1,7 +1,7 @@
 import numpy as np
 
 #def gerar_testbench(ordem=15, Nbs=16, Nbf=16, guard_bits=0, arquivo='fir_tb.v'):
-def gerar_testbench(ordem=15, Nbs=16, Nbf=16, guard_bits=0, arquivo=r"C:\Users\Ricardo\Documents\FPGA\Filtro_Manso\Filtro\fir_tb.v"):
+def gerar_testbench(ordem, Nbs, Nbf, guard_bits=0, arquivo=r"C:\Users\Ricardo\Documents\FPGA\Filtro_Manso\Filtro\fir_tb.v"):
 
     """
     Gera um testbench Verilog atualizado automaticamente com:
