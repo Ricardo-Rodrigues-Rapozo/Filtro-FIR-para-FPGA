@@ -74,3 +74,5 @@ output_data.txt: saída do filtro FIR completa com largura total de bits.
 output_data16.txt: saída truncada para 16 bits (útil para visualização ou uso em blocos com limitação de largura de barramento).
 
 
+# Filtro media movel complexo 
+
